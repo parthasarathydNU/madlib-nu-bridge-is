@@ -15,7 +15,7 @@ function App() {
   return (
     <div className="App">
       <img
-        style={{ height: "10rem" }}
+        style={{ display: "block", height: "10rem", margin: "0 auto" }}
         src="http://www.9yahds.com/content/uploads/2015/05/midlib3.png"
         alt="Mad Libs"
       />

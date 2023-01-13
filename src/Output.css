@@ -1,0 +1,10 @@
+.output h2 {
+  color: #397367;
+  font-family: cursive;
+}
+
+.output b {
+  padding: 0 0.25rem 0.15rem;
+  background-color: #f2d16b;
+  border-radius: 2px;
+}

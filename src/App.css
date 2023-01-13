@@ -1,6 +1,9 @@
 .App {
-  width: max(100%, 1000px);
-  padding: 2.5rem 0;
+  background-color: #f3f3f3;
+  border: 3px dashed #397367;
+  width: max(calc(100% - 2.5rem * 2), 1000px);
+  margin: 2.5rem;
+  padding-top: 2.5rem;
 }
 
 ul {
@@ -21,11 +24,12 @@ label {
 input {
   margin-bottom: 20px;
   margin-top: 12px;
-  padding: 0px;
+  padding: 0.2rem;
 }
 
-.page-title {
-  text-align: center;
+button {
+  width: 100%;
+  cursor: pointer;
 }
 
 .madlib {
