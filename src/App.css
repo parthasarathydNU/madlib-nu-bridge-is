@@ -13,24 +13,19 @@
   margin: 0 auto;
 }
 
-ul {
-  list-style: none;
-  margin: 0px;
-  padding: 0px;
-  line-height: 0rem;
+.input-group {
+  margin-bottom: 20px;
+  padding: 0;
 }
 
 label {
+  display: block;
   font-size: medium;
   font-weight: 700;
-  margin-top: 20px;
-  margin-bottom: 10px;
   padding: 0px;
 }
 
 input {
-  margin-bottom: 20px;
-  margin-top: 12px;
   padding: 0.2rem;
 }
 
