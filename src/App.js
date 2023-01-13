@@ -1,6 +1,6 @@
-import './App.css';
-import { useState } from 'react';
-import { InputTextField } from './Input';
+import "./App.css";
+import { useState } from "react";
+import { InputTextField } from "./InputTextField";
 import Output from "./Output";
 
 function App() {
@@ -12,7 +12,10 @@ function App() {
 
   return (
     <div className="App">
-      <img style={{height:"10rem"}} src="http://www.9yahds.com/content/uploads/2015/05/midlib3.png" />
+      <img
+        style={{ height: "10rem" }}
+        src="http://www.9yahds.com/content/uploads/2015/05/midlib3.png"
+      />
 
       <h1>Inputs</h1>
       <form>

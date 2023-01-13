@@ -1,6 +1,7 @@
 import React from "react";
 
 export function InputTextField({ get, set, partOfSpeech }) {
+
   return (
     <div>
       <ul>
@@ -8,6 +9,7 @@ export function InputTextField({ get, set, partOfSpeech }) {
           id="text-input"
           type="text"
           value={get}
+          style={style}
           placeholder={partOfSpeech}
           onChange={(e) => {
             set(e.target.value);
