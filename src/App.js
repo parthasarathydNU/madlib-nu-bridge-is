@@ -10,6 +10,8 @@ function App() {
   const [word4, setWord4] = useState("");
   const [word5, setWord5] = useState("");
 
+  const [showOutput, setShowOutput] = useState(false);
+
   return (
     <div className="App">
       <img
@@ -18,32 +20,45 @@ function App() {
         alt="Mad Libs"
       />
 
-      <h1>Inputs</h1>
-      <form>
-        <InputTextField get={word1} set={setWord1} partOfSpeech={"adjective"} />
-        <InputTextField get={word2} set={setWord2} partOfSpeech={"adjective"} />
-        <InputTextField get={word3} set={setWord3} partOfSpeech={"noun"} />
-        <InputTextField get={word4} set={setWord4} partOfSpeech={"verb"} />
-        <InputTextField get={word5} set={setWord5} partOfSpeech={"verb"} />
-      </form>
-
       <div className="madlib">
         <form>
-          <Input
-            name={"word1"}
+          <h1>Inputs</h1>
+
+          <InputTextField
             get={word1}
             set={setWord1}
             partOfSpeech={"adjective"}
           />
+          <InputTextField
+            get={word2}
+            set={setWord2}
+            partOfSpeech={"adjective"}
+          />
+          <InputTextField get={word3} set={setWord3} partOfSpeech={"noun"} />
+          <InputTextField get={word4} set={setWord4} partOfSpeech={"verb"} />
+          <InputTextField get={word5} set={setWord5} partOfSpeech={"verb"} />
+
+          <button
+            onClick={(e) => {
+              e.preventDefault();
+              setShowOutput(!showOutput);
+            }}
+          >
+            {showOutput ? "Hide Output" : "Show Output"}
+          </button>
         </form>
 
-        <Output
-          word1={word1}
-          word2={word2}
-          word3={word3}
-          word4={word4}
-          word5={word5}
-        />
+        {showOutput ? (
+          <Output
+            word1={word1}
+            word2={word2}
+            word3={word3}
+            word4={word4}
+            word5={word5}
+          />
+        ) : (
+          <div></div>
+        )}
       </div>
     </div>
   );
