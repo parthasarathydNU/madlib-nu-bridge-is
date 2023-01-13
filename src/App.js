@@ -15,6 +15,7 @@ function App() {
       <img
         style={{ height: "10rem" }}
         src="http://www.9yahds.com/content/uploads/2015/05/midlib3.png"
+        alt="Mad Libs"
       />
 
       <h1>Inputs</h1>
@@ -26,13 +27,24 @@ function App() {
         <InputTextField get={word5} set={setWord5} partOfSpeech={"verb"} />
       </form>
 
-      <Output
-        word1={word1}
-        word2={word2}
-        word3={word3}
-        word4={word4}
-        word5={word5}
-      />
+      <div className="madlib">
+        <form>
+          <Input
+            name={"word1"}
+            get={word1}
+            set={setWord1}
+            partOfSpeech={"adjective"}
+          />
+        </form>
+
+        <Output
+          word1={word1}
+          word2={word2}
+          word3={word3}
+          word4={word4}
+          word5={word5}
+        />
+      </div>
     </div>
   );
 }

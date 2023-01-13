@@ -1,7 +1,8 @@
 export default function Output({ word1, word2, word3, word4, word5 }) {
   return (
-    <div>
+    <div className="output">
       <h1>Output</h1>
+
       <p>
         Welcome to Oasis, the ultimate destination for computer science majors
         at Northeastern! As a member, you'll have access {word1} events,
