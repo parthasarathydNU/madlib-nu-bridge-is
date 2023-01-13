@@ -1,10 +1,17 @@
 import React from "react";
 
-export function Input({ name, value }) {
+export function Input({ get, set, partOfSpeech }) {
   return (
     <>
-      <label for="text-input">{name}</label>
-      <input id="text-input" type="text" value={value} />
+      <input
+        id="text-input"
+        type="text"
+        value={get}
+        placeholder={partOfSpeech}
+        onChange={(e) => {
+          set(e.target.value);
+        }}
+      />
     </>
   );
 }
