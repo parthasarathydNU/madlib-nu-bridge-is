@@ -6,4 +6,4 @@ See the slides [here](https://docs.google.com/presentation/d/10KpKDJYZdpAfZhK_Yt
 [here](https://mellow-entremet-d18e1e.netlify.app/)
 
 ## Screenshot
-<img width="1151" alt="image" src="https://user-images.githubusercontent.com/57777918/212392044-ebb99527-98e1-4009-9e85-43119788e37b.png">
+![image](https://user-images.githubusercontent.com/35548468/212416948-debcdf9e-f8da-427a-b112-a45e15c38bf6.png)
