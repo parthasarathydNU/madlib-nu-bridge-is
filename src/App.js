@@ -1,6 +1,6 @@
 import './App.css';
 import { useState } from 'react';
-import { Input } from './Input';
+import { InputTextField } from './Input';
 import Output from "./Output";
 
 function App() {
@@ -16,11 +16,11 @@ function App() {
 
       <h1>Inputs</h1>
       <form>
-        <Input get={word1} set={setWord1} partOfSpeech={"adjective"} />
-        <Input get={word2} set={setWord2} partOfSpeech={"adjective"} />
-        <Input get={word3} set={setWord3} partOfSpeech={"noun"} />
-        <Input get={word4} set={setWord4} partOfSpeech={"verb"} />
-        <Input get={word5} set={setWord5} partOfSpeech={"verb"} />
+        <InputTextField get={word1} set={setWord1} partOfSpeech={"adjective"} />
+        <InputTextField get={word2} set={setWord2} partOfSpeech={"adjective"} />
+        <InputTextField get={word3} set={setWord3} partOfSpeech={"noun"} />
+        <InputTextField get={word4} set={setWord4} partOfSpeech={"verb"} />
+        <InputTextField get={word5} set={setWord5} partOfSpeech={"verb"} />
       </form>
 
       <Output

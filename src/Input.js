@@ -1,8 +1,8 @@
 import React from "react";
 
-export function Input({ get, set, partOfSpeech }) {
+export function InputTextField({ get, set, partOfSpeech }) {
   return (
-    <>
+    <div>
       <ul>
         <input
           id="text-input"
@@ -14,6 +14,6 @@ export function Input({ get, set, partOfSpeech }) {
           }}
         />
       </ul>
-    </>
+    </div>
   );
 }
