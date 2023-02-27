@@ -1,6 +1,6 @@
-# Madlibs for Oasis Hack Session 0, Spring 2023
-Sample app made with students to help teach React and Git skills.
-See the slides [here](https://docs.google.com/presentation/d/10KpKDJYZdpAfZhK_YtrPJZJqOGL0hqMvNc5FFcaS0Rk/edit?usp=sharing).
+# Madlibs for IS Bridge Frontend Workshop, Spring 2023
+Sample app made to help teach HTML, CSS and React skills.
+See the slides [here](https://docs.google.com/presentation/d/1L3vlrj67-cn-2l07UDdMFo2ehIQIyIvhqVGk9odasA4/edit?usp=sharing).
 
 ## Link
 [here](https://mellow-entremet-d18e1e.netlify.app/)
